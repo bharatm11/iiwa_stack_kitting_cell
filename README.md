@@ -1,5 +1,5 @@
 ## IIWA STACK
-ROS Indigo/Kinetic metapackage for the KUKA LBR IIWA R800/R820 (7/14 Kg).
+ROS Indigo/Kinetic metapackage for the KUKA LBR IIWA R800/R820 (7/14 Kg). This package has been modified to be used with the [KUKA_IIWA_KITTING_CELL Project](https://github.com/bharatm11/Kuka_IIWA_Kitting_Cell_Final)
 
 **Current version : v-1.2.0 for Sunrise 1.10 - 1.14**   
 [Using a previous version of Sunrise?](https://github.com/SalvoVirga/iiwa_stack/wiki/FAQ#which-version-of-sunriseossunrise-workbench-is-supported)    
