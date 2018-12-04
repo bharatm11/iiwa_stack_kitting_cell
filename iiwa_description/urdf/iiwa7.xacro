@@ -331,16 +331,7 @@
     </link>
 
 
-        <gazebo>
-          <plugin name="gazebo_ros_vacuum_gripper" filename="libgazebo_ros_vacuum_gripper.so">
-            <robotNamespace>/${robot_name}/vacuum_gripper</robotNamespace>
-            <bodyName>${robot_name}_link_ee</bodyName>
-            <topicName>grasping</topicName>
-            <maxForce>200</maxForce>
-            <maxDistance>10</maxDistance>
-            <minDistance>0</minDistance>
-          </plugin>
-        </gazebo>
+
 
     <!--Extensions -->
     <xacro:iiwa_gazebo robot_name="${robot_name}" />
