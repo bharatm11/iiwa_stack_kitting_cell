@@ -1,5 +1,5 @@
 ## IIWA STACK Kitting Cell
-[![Build Status](https://travis-ci.org/IFL-CAMP/iiwa_stack.svg?branch=master)](https://travis-ci.org/IFL-CAMP/iiwa_stack)
+[![Build Status](https://travis-ci.org/bharatm11/iiwa_stack_kitting_cell.svg?branch=master)](https://travis-ci.org/bharatm11/iiwa_stack_kitting_cell)
 
 This is the ROS Indigo/Kinetic metapackage for the KUKA LBR IIWA R800/R820 (7/14 Kg). This was originally forked from [iiwa_stack](https://github.com/IFL-CAMP/iiwa_stack).
 
