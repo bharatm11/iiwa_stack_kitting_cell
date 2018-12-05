@@ -35,10 +35,14 @@ __The features and usage of the stack are described in depth on its  [WIKI][8]._
 We **_strongly_** suggest to have a look at the wiki to have a better understanding of the code, both for its use and its extension.     
 Do you have problems? First, please check the [**FAQs**](https://github.com/SalvoVirga/iiwa_stack/wiki/FAQ). Issues or emails are always welcome!
 
+**This package is meant to be used with version : v-1.2.0 for Sunrise 1.10 - 1.14**   
+For use with a a previous version of Sunrise, please check out the documentation at:  (https://github.com/SalvoVirga/iiwa_stack/wiki/FAQ#which-version-of-sunriseossunrise-workbench-is-supported)    
+
+___
 
 ### References
 1. Hennersperger, Christoph, Fuerst, Bernhard, Virga, Salvatore, Zettinig, Oliver, Frisch, Benjamin, Neff, Thomas & Navab, ..*Nassir (2017). Towards MRI-based autonomous robotic US acquisitions: a first feasibility study. *IEEE transactions on ..*medical imaging*, 36, 538-548.
-___
+
 ### Acknowledgements
 This repository takes inspiration from the work of :
 - _Centro E. Piaggio_ and their [ROS interface for the KUKA LBR 4+][1]
