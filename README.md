@@ -41,7 +41,7 @@ For use with a a previous version of Sunrise, please check out the documentation
 ___
 
 ### References
-1. Hennersperger, Christoph, Fuerst, Bernhard, Virga, Salvatore, Zettinig, Oliver, Frisch, Benjamin, Neff, Thomas & Navab, ..*Nassir (2017). Towards MRI-based autonomous robotic US acquisitions: a first feasibility study. *IEEE transactions on ..*medical imaging*, 36, 538-548.
+1. Hennersperger, Christoph, Fuerst, Bernhard, Virga, Salvatore, Zettinig, Oliver, Frisch, Benjamin, Neff, Thomas & Navab, Nassir (2017). Towards MRI-based autonomous robotic US acquisitions: a first feasibility study. *IEEE transactions on medical imaging*, 36, 538-548.
 
 ### Acknowledgements
 This repository takes inspiration from the work of :
