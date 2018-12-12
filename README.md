@@ -1,10 +1,18 @@
-## IIWA STACK
-ROS Indigo/Kinetic metapackage for the KUKA LBR IIWA R800/R820 (7/14 Kg). This package has been modified to be used with the [KUKA_IIWA_KITTING_CELL Project](https://github.com/bharatm11/Kuka_IIWA_Kitting_Cell_Final)
+## IIWA STACK Kitting Cell
+[![Build Status](https://travis-ci.org/bharatm11/iiwa_stack_kitting_cell.svg?branch=master)](https://travis-ci.org/bharatm11/iiwa_stack_kitting_cell)
 
-**Current version : v-1.2.0 for Sunrise 1.10 - 1.14**   
-[Using a previous version of Sunrise?](https://github.com/SalvoVirga/iiwa_stack/wiki/FAQ#which-version-of-sunriseossunrise-workbench-is-supported)    
+This is the ROS Indigo/Kinetic metapackage for the KUKA LBR IIWA R800/R820 (7/14 Kg). This was originally forked from [iiwa_stack](https://github.com/IFL-CAMP/iiwa_stack).
 
-[![Build Status](https://travis-ci.org/IFL-CAMP/iiwa_stack.svg?branch=master)](https://travis-ci.org/IFL-CAMP/iiwa_stack)
+This package has been modified to be used with the [KUKA_IIWA_KITTING_CELL Project](https://github.com/bharatm11/Kuka_IIWA_Kitting_Cell_Final)
+
+This package provides additional functionalities which can be used for the simulation of KUKA IIWA manipulators on Gazebo and Moveit. These functionalities include:
+1) Simulation of a vacuum gripper - Branch: master
+2) Simulation of a RGB camera at the end effector - Branch: camera_ee
+
+**This package is meant to be used with version : v-1.2.0 for Sunrise 1.10 - 1.14**   
+For use with a a previous version of Sunrise, please check out the documentation at:  (https://github.com/SalvoVirga/iiwa_stack/wiki/FAQ#which-version-of-sunriseossunrise-workbench-is-supported)    
+
+
 
 ### Features
 - Native ROSJava nodes running on the robot as a Sunrise RoboticApplication: supports ROS parameters, topics, services, etc.
@@ -18,6 +26,8 @@ ROS Indigo/Kinetic metapackage for the KUKA LBR IIWA R800/R820 (7/14 Kg). This p
 - NTP synchronization with a server running on the ROS master
 - full MoveIt! integration
 - Gazebo support
+- Simulation of a vacuum gripper in Gazebo
+- Simulation of a RGB camera at the end effector
 
 ___
 ### Usage
@@ -25,34 +35,22 @@ __The features and usage of the stack are described in depth on its  [WIKI][8]._
 We **_strongly_** suggest to have a look at the wiki to have a better understanding of the code, both for its use and its extension.     
 Do you have problems? First, please check the [**FAQs**](https://github.com/SalvoVirga/iiwa_stack/wiki/FAQ). Issues or emails are always welcome!
 
-___
-### Citation
-
-If you use iiwa_stack for reseach, you could cite the following work. It is the first publication where it was used.
-
-    @article{hennersperger2017towards,
-      title={Towards MRI-based autonomous robotic US acquisitions: a first feasibility study},
-      author={Hennersperger, Christoph and Fuerst, Bernhard and Virga, Salvatore and Zettinig, Oliver and Frisch, Benjamin and Neff, Thomas and Navab, Nassir},
-      journal={IEEE transactions on medical imaging},
-      volume={36},
-      number={2},
-      pages={538--548},
-      year={2017},
-      publisher={IEEE}
-    }
+**This package is meant to be used with version : v-1.2.0 for Sunrise 1.10 - 1.14**   
+For use with a a previous version of Sunrise, please check out the documentation at:  (https://github.com/SalvoVirga/iiwa_stack/wiki/FAQ#which-version-of-sunriseossunrise-workbench-is-supported)    
 
 ___
+
+### References
+1. Hennersperger, Christoph, Fuerst, Bernhard, Virga, Salvatore, Zettinig, Oliver, Frisch, Benjamin, Neff, Thomas & Navab, Nassir (2017). Towards MRI-based autonomous robotic US acquisitions: a first feasibility study. *IEEE transactions on medical imaging*, 36, 538-548.
+
 ### Acknowledgements
 This repository takes inspiration from the work of :
 - _Centro E. Piaggio_ and their [ROS interface for the KUKA LBR 4+][1]
 - _Mohammad Khansari_ and his [IIWA-ROS communication inteface][2] 
 - _Robert Krug_ and his [IIWA URDF and Gazebo package][7]      
+- _Li Huang_ and his [ur5_ROS-Gazebo package][9]
+- _Salvatore Virga_ and his [iiwa_stack package][10]
 
-Most of the original files were completely refactored though.
-
-### Contacts
-Salvatore Virga : salvo.virga@tum.de     
-Marco Esposito : marco.esposito@tum.de
 
 [1]: https://github.com/CentroEPiaggio/kuka-lwr
 [2]: https://bitbucket.org/khansari/iiwa.git
@@ -62,3 +60,5 @@ Marco Esposito : marco.esposito@tum.de
 [6]: http://git.lcsr.jhu.edu/cgrauma1/kuka_iiwa_shared
 [7]: https://github.com/rtkg/lbr_iiwa
 [8]: https://github.com/SalvoVirga/iiwa_stack/wiki
+[9]: https://github.com/lihuang3/ur5_ROS-Gazebo
+[10]: https://github.com/IFL-CAMP/iiwa_stack
